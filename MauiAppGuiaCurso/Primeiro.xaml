@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppGuiaCurso.Primeiro"
+             Title="Primeiro">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Título Principal -->
+            <Label Text="1º Ano: Disciplinas"
+               FontSize="24"
+               FontAttributes="Bold"
+               TextColor="DarkBlue"
+               HorizontalOptions="Center" />
+
+            <!-- Lógica de Programação -->
+            <Frame BackgroundColor="#f0f0f0" CornerRadius="10" Padding="15" Margin="0,10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Lógica de Programação"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#007ACC" />
+                    <Label Text="A Lógica de Programação é a base do desenvolvimento de software e ensina a pensar de forma estruturada para resolver problemas por meio de instruções que podem ser executadas por um computador. Envolve a criação de sequências lógicas de ações para alcançar um determinado resultado." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                    <Label Text="Principais conceitos:
+- Estruturas de controle (if/else, laços).
+- Variáveis (armazenamento de dados).
+- Funções e Procedimentos (reutilização de código)." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Algoritmos -->
+            <Frame BackgroundColor="#f0f0f0" CornerRadius="10" Padding="15" Margin="0,10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Algoritmos"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#007ACC" />
+                    <Label Text="Algoritmos são conjuntos de passos ou instruções claras e definidas para resolver um problema ou realizar uma tarefa. Foca em como estruturar soluções para problemas de forma otimizada." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                    <Label Text="Principais conceitos:
+- Estruturas de Dados (arrays, listas).
+- Desenvolvimento de algoritmos.
+- Complexidade (tempo e memória)." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Banco de Dados -->
+            <Frame BackgroundColor="#f0f0f0" CornerRadius="10" Padding="15" Margin="0,10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Banco de Dados"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#007ACC" />
+                    <Label Text="Foca no armazenamento, organização e recuperação de informações de forma estruturada. Ensina como projetar e gerenciar bancos de dados para suportar aplicações complexas." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                    <Label Text="Principais conceitos:
+- Modelagem de dados (tabelas, colunas).
+- SGBD (MySQL, PostgreSQL).
+- SQL (linguagem de consulta).
+- Normalização (redução de redundância)." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Redes de Computadores -->
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

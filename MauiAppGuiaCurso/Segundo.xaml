@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppGuiaCurso.Segundo"
+             Title="Segundo">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Título Principal - 2º Ano -->
+            <Label Text="2º Ano: Disciplinas"
+               FontSize="24"
+               FontAttributes="Bold"
+               TextColor="DarkBlue"
+               HorizontalOptions="Center" />
+
+            <!-- Programação Orientada a Objetos -->
+            <Frame BackgroundColor="#f0f0f0" CornerRadius="10" Padding="15" Margin="0,10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Programação Orientada a Objetos (POO)"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#007ACC" />
+                    <Label Text="Aborda a criação de software utilizando objetos e classes, permitindo maior organização e reutilização de código." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                    <Label Text="Principais conceitos:
+- Classes e Objetos.
+- Herança, Encapsulamento, Polimorfismo.
+- Abstração." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Engenharia de Software -->
+            <Frame BackgroundColor="#f0f0f0" CornerRadius="10" Padding="15" Margin="0,10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Engenharia de Software"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#007ACC" />
+                    <Label Text="Foca nos processos e metodologias de desenvolvimento de software, garantindo qualidade e eficiência." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                    <Label Text="Principais conceitos:
+- Ciclo de vida do software.
+- Métodos ágeis (Scrum, Kanban).
+- Qualidade de software." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Desenvolvimento Web -->
+            <Frame BackgroundColor="#f0f0f0" CornerRadius="10" Padding="15" Margin="0,10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Desenvolvimento Web"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#007ACC" />
+                    <Label Text="Desenvolvimento de aplicações web, incluindo front-end (interface) e back-end (servidores e bancos de dados)." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                    <Label Text="Principais conceitos:
+- HTML, CSS, JavaScript.
+- Arquitetura cliente-servidor.
+- Frameworks web (React, Angular)." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

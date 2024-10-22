@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppGuiaCurso.Terceiro"
+             Title="Terceiro">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Título Principal - 3º Ano -->
+            <Label Text="3º Ano: Disciplinas"
+               FontSize="24"
+               FontAttributes="Bold"
+               TextColor="DarkBlue"
+               HorizontalOptions="Center" />
+
+            <!-- Mobile Development -->
+            <Frame BackgroundColor="#f0f0f0" CornerRadius="10" Padding="15" Margin="0,10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Desenvolvimento de Aplicações Móveis"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#007ACC" />
+                    <Label Text="Foco na criação de aplicativos para dispositivos móveis, como smartphones e tablets." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                    <Label Text="Principais conceitos:
+- Plataformas (iOS, Android).
+- Linguagens (Kotlin, Swift, Flutter).
+- UX/UI para mobile." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Segurança da Informação -->
+            <Frame BackgroundColor="#f0f0f0" CornerRadius="10" Padding="15" Margin="0,10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Segurança da Informação"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#007ACC" />
+                    <Label Text="Ensina como proteger sistemas e dados contra ataques e falhas de segurança." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                    <Label Text="Principais conceitos:
+- Criptografia.
+- Firewall, antivírus.
+- Testes de penetração (pentesting)." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Projeto Integrado -->
+            <Frame BackgroundColor="#f0f0f0" CornerRadius="10" Padding="15" Margin="0,10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Projeto Integrado"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#007ACC" />
+                    <Label Text="Desenvolvimento de um projeto completo que integra os conhecimentos adquiridos ao longo do curso." 
+                       FontSize="16"
+                       TextColor="Gray" />
+                    <Label Text="Principais conceitos:
+- Gestão de projetos.
+- Integração de tecnologias.
+- Ap"/>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
